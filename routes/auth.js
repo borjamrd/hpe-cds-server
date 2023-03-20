@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 const router = express.Router();
 
 //delete after checking everithing's allright
-const secretKey = "secretkey";
+const secretKey = "mi_clave_secreta";
 
 router.post("/", (req, res) => {
   const { username, password } = req.body;
